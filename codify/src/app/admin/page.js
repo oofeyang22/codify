@@ -16,7 +16,7 @@ const Admin = async () => {
                 </Suspense>
             </div>
             <div className={styles.col}>
-=
+
                 <AdminPostForm userId={session.user.id}/>
 
             </div>
